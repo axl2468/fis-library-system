@@ -1,0 +1,250 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #14375b;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    outline: 1px solid black;  
+    padding: 20px;
+    max-height: 200px;
+    position: relative;
+  }
+  
+  .fislogo {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .fislogo img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  header h1{
+    position: absolute;  
+    margin-top: -20px;
+    left: 120px;
+    top: 50px;
+    font-family: 'EB Garamond', serif;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  button[type="submit"] {
+    background-color: whitesmoke;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #fff;
+    color: #333;
+    opacity: 0.8;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #0b2239;
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+    border-radius: 8px;
+    font-family: 'EB Garamond', serif;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0 30px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #929292FF;
+    border-radius: 8px;
+  }
+  
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  main h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+ }
+ 
+ .login-form label {
+    margin-top: 20px;
+    margin-bottom: -3px;
+    font-size: 14px;
+ }
+ 
+ .login-form input {
+    width: 60%;
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
+ 
+ .form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ .login-button {
+    background-color: whitesmoke;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+ }
+ 
+ .login-button:hover {
+    background-color: #333;
+    color: #fff;
+    opacity: 0.8;
+ }
+ 
+  
+  input[type="text"], input[type="password"] {
+    padding: 5px;
+    font-size: 12px;
+    border: none;
+    border-radius: 3px;
+    margin: 5px;
+    width: 100%;
+  }
+  
+  input[type="text"], input[type="password"] {
+    display: block;
+  }
+  
+  
+  input[type="text"], input[type="password"] {
+    padding: 5px;
+    text-align: left;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer{
+    background-color: #14375b;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+  }
+
+  #bookSearch {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+  }
+  
+  #booksTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+  }
+  
+  #booksTable th, #booksTable td {
+    text-align: left; /* Left-align text */
+    padding: 12px; /* Add padding */
+  }
+  
+  #booksTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #booksTable tr.header, #booksTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #f1f1f1;
+  }
